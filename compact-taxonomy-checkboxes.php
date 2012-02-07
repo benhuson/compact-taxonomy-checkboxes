@@ -2,6 +2,7 @@
 
 /*
 Plugin Name: Compact Taxonomy Checkboxes
+Plugin URI: https://github.com/benhuson/compact-taxonomy-checkboxes
 Description: Collapse and reduce the height of hierarchical category and taxonomy panels in the WordPress admin.
 Version: 1.0
 Author: Ben Huson
