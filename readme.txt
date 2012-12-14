@@ -3,22 +3,23 @@ Contributors: husobj
 Donate link: http://www.benhuson.co.uk/donate/
 Tags: ui, taxonomy, taxonomies, category, categories, checkboxes, admin, edit
 Requires at least: 3.0
-Tested up to: 3.3.1
-Stable tag: 1.0
+Tested up to: 3.4.2
+Stable tag: 1.1
+License: GPLv2
 
-Collapse and reduce the height of hierarchical category and taxonomy panels in the WordPress admin.
+Collapse and reduce the height of hierarchical category and taxonomy panels in the WordPress admin (not needed for WordPress 3.5+).
 
 == Description ==
 
-Collapse and reduce the height of hierarchical category and taxonomy panels in the WordPress admin.
+> *This plugin in only required for versions prior to WordPress 3.5*
 
-It's always bugged me that when editing a post the categories panel takes up so much height if you only have a few categories. This is also the same for custom hierarchical taxonomies.
+This plugin collapses and reduces the height of hierarchical category and taxonomy panels in the WordPress admin.
+
+It always bugged me that when editing a post the categories panel took up so much height if you only had a few categories. This was also the same for custom hierarchical taxonomies.
 
 This plugin just adds a couple of styles to your admin to override this and collapse that space.
 
-I have created a patch for this which will at some point hopefully make it into WordPress core. You can [follow the progress of the patch here](http://core.trac.wordpress.org/ticket/15925).
-
-In the meantime, you can install this plugin...
+I created an initial patch for this which, with contributions from other WordPress developers, was included in WordPress 3.5. You can [see the patch here...](http://core.trac.wordpress.org/ticket/15925)
 
 == Installation ==
 
@@ -44,6 +45,10 @@ If you can, please [fork the code](https://github.com/benhuson/compact-taxonomy-
 1. Remove the unnecessary white space - much better.
 
 == Changelog ==
+
+= 1.1 =
+
+* Deactivate if running WordPress 3.5+
 
 = 1.0 =
 
