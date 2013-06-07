@@ -11,7 +11,8 @@ Collapse and reduce the height of hierarchical category and taxonomy panels in t
 
 == Description ==
 
-> *This plugin in only required for versions prior to WordPress 3.5*
+> **This plugin in only required for versions prior to WordPress 3.5**  
+> I am no longer continuing to provide support for this plugin. If anyone would like to take over commit access please contact me via the details in my profile.
 
 This plugin collapses and reduces the height of hierarchical category and taxonomy panels in the WordPress admin.
 
