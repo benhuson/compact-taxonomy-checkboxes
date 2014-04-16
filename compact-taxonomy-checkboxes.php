@@ -59,5 +59,3 @@ padding-bottom: 0.8em;
 </style>
 	';
 }
-
-?>
