@@ -34,16 +34,16 @@ function compact_taxonomy_checkboxes_admin_init() {
 		add_action( 'admin_head', 'compact_taxonomy_checkboxes_admin_head' );
 	} else {
 		if ( is_plugin_active( plugin_basename( __FILE__ ) ) ) {
-    		add_action( 'admin_notices', 'compact_taxonomy_checkboxes_admin_notices' );
+			add_action( 'admin_notices', 'compact_taxonomy_checkboxes_admin_notices' );
 			deactivate_plugins( plugin_basename( __FILE__ ) );
 		}
 	}
 }
 
 function compact_taxonomy_checkboxes_admin_notices() {
-    echo '<div id="message" class="error">';
-    echo '<p><strong>The Compact Taxonomy Checkboxes plugin has been disabled as you are using WordPress 3.5+ which includes this functionality by default.</strong> You may delete this plugin as it is only useful for earlier versions of WordPress.</p>';
-    echo '</div>';
+	echo '<div id="message" class="error">';
+	echo '<p><strong>The Compact Taxonomy Checkboxes plugin has been disabled as you are using WordPress 3.5+ which includes this functionality by default.</strong> You may delete this plugin as it is only useful for earlier versions of WordPress.</p>';
+	echo '</div>';
 }
 
 function compact_taxonomy_checkboxes_admin_head() {
