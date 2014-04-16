@@ -1,7 +1,7 @@
 === Compact Taxonomy Checkboxes ===
 Contributors: husobj
 Donate link: http://www.benhuson.co.uk/donate/
-Tags: ui, taxonomy, taxonomies, category, categories, checkboxes, admin, edit
+Tags: ui, taxonomy, taxonomies, category, categories, checkboxes, admin, edit, adopt-me
 Requires at least: 3.0
 Tested up to: 3.4.2
 Stable tag: 1.1
